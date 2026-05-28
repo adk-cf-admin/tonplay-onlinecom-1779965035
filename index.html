@@ -1,0 +1,880 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+
+<head>
+    <meta charset="utf-8">
+
+    <script src="./index.js"></script>
+
+    <link rel="manifest" href="./manifest.json">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Google Fonts -->
+    <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+
+    <!-- Google Fonts -->
+    <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet"
+    />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=2">
+    <link rel="preload" as="image" href="_assets/images/1779964370-tonplay-400x266-1-cr.webp" fetchpriority="high">
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="stylesheet" href="./index.css">
+    <meta name="theme-color" content="">
+    <title>Tonplay Casino — slots, live casino, paiements TON, bonus et paris</title>
+    <meta name="description"
+          content="Tonplay Casino réunit machines à sous, live casino, jeux rapides, paris sportifs, esport, paiements TON, caisse crypto, cashback jusqu’à 6%, bonus crypto jusqu’à 7% et assistance 24h/24.">
+    <link rel="canonical" href="https://tonplay-online.com">
+    <meta property="og:title" content="Tonplay Casino — slots, live casino, paiements TON, bonus et paris">
+    <meta property="og:description"
+          content="Tonplay Casino réunit machines à sous, live casino, jeux rapides, paris sportifs, esport, paiements TON, caisse crypto, cashback jusqu’à 6%, bonus crypto jusqu’à 7% et assistance 24h/24.">
+    <meta property="og:url" content="https://tonplay-online.com">
+    <meta property="og:site_name" content="Tonplay Casino — slots, live casino, paiements TON, bonus et paris">
+    <meta property="og:locale" content="fr-FR">
+    <meta property="og:image" content="_assets/images/1779964397-ton.webp">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="tonplay-online.com">
+    <meta name="twitter:title" content="Tonplay Casino — slots, live casino, paiements TON, bonus et paris">
+    <meta name="twitter:description"
+          content="Tonplay Casino réunit machines à sous, live casino, jeux rapides, paris sportifs, esport, paiements TON, caisse crypto, cashback jusqu’à 6%, bonus crypto jusqu’à 7% et assistance 24h/24.">
+    <meta name="twitter:image" content="_assets/images/1779964397-ton.webp">
+    <meta name="twitter:image:width" content="1200">
+    <meta name="twitter:image:height" content="630">
+    <link rel="icon" href="_assets/images/1779964403-favicon-2026-05-28t131519758.ico" type="image/x-icon" sizes="16x16">
+    <meta name="language" content="fr-FR">
+
+    <link rel="apple-touch-icon" href="_assets/images/1779964359-favicon-2026-05-28t131519758.ico" sizes="96x96">
+    <link rel="icon" href="_assets/images/1779964359-favicon-2026-05-28t131519758.ico" type="image/webp" sizes="192x192">
+
+    <link rel="preload" href="_assets/images/1779964444-ton.webp" as="image" fetchpriority="high">
+
+    <link rel="alternate" hreflang="x-default" href="https://tonplay-online.com" />
+    <link rel="alternate" hreflang="fr" href="https://tonplay-online.com" />
+</head>
+
+<body>
+<svg
+        style="display: none"
+        xmlns="http://www.w3.org/2000/svg"
+        width="1em"
+        height="1em"
+        viewBox="0 0 256 256"
+>
+    <symbol id="minus-icon" viewBox="0 0 256 256">
+        <path
+                fill="#006EFF"
+                d="M228 128a12 12 0 0 1-12 12H40a12 12 0 0 1 0-24h176a12 12 0 0 1 12 12"
+        />
+    </symbol>
+</svg>
+
+<svg
+        style="display: none"
+        xmlns="http://www.w3.org/2000/svg"
+        width="1em"
+        height="1em"
+        viewBox="0 0 32 32"
+>
+    <symbol id="globe-icon" viewBox="0 0 32 32">
+        <path
+                fill="#F37B1F"
+                d="M32.032 16c0-8.501-6.677-15.472-15.072-15.969-0.173-0.019-0.346-0.032-0.523-0.032-0.052 0-0.104 0.005-0.156 0.007-0.093-0.002-0.186-0.007-0.281-0.007-8.84 0-16.032 7.178-16.032 16.001s7.192 16.001 16.032 16.001c0.094 0 0.188-0.006 0.281-0.008 0.052 0.002 0.104 0.008 0.156 0.008 0.176 0 0.349-0.012 0.523-0.032 8.395-0.497 15.072-7.468 15.072-15.969zM29.049 21.151c-0.551-0.16-1.935-0.507-4.377-0.794 0.202-1.381 0.313-2.84 0.313-4.357 0-1.196-0.069-2.354-0.197-3.469 3.094-0.37 4.45-0.835 4.54-0.867l-0.372-1.050c0.695 1.659 1.080 3.478 1.080 5.386 0 1.818-0.352 3.555-0.987 5.151zM8.921 16c0-1.119 0.074-2.212 0.21-3.263 1.621 0.127 3.561 0.222 5.839 0.243v6.939c-2.219 0.021-4.114 0.111-5.709 0.234-0.22-1.319-0.34-2.715-0.34-4.154zM16.967 2.132c2.452 0.711 4.552 4.115 5.492 8.628-1.512 0.12-3.332 0.209-5.492 0.229v-8.857zM14.971 2.156v8.832c-2.136-0.021-3.965-0.109-5.502-0.226 0.96-4.457 3.076-7.836 5.502-8.606zM14.971 21.913l0 7.929c-2.263-0.718-4.256-3.705-5.293-7.719 1.492-0.11 3.253-0.189 5.292-0.21zM16.967 29.868l-0-7.955c2.061 0.020 3.814 0.102 5.288 0.217-1.019 4.067-3 7.076-5.288 7.738zM16.967 19.92l0-6.939c2.291-0.021 4.218-0.118 5.818-0.25 0.131 1.053 0.203 2.147 0.203 3.268 0 1.442-0.116 2.84-0.329 4.16-1.575-0.128-3.462-0.219-5.692-0.24zM28.588 9.81c-0.302 0.094-1.564 0.453-4.094 0.751-0.564-2.998-1.584-5.561-2.91-7.412 3.048 1.325 5.535 3.697 7.005 6.661zM11.213 2.831c-1.632 1.873-2.963 4.568-3.691 7.754-2.265-0.245-3.623-0.534-4.166-0.665 1.585-3.27 4.407-5.836 7.856-7.088zM2.614 11.787c0.385 0.104 1.841 0.467 4.549 0.766-0.155 1.107-0.24 2.26-0.24 3.447 0 1.509 0.136 2.96 0.383 4.334-2.325 0.251-3.755 0.552-4.396 0.706-0.607-1.566-0.944-3.264-0.944-5.041 0-1.467 0.228-2.883 0.649-4.213zM3.784 22.886c0.727-0.154 2.029-0.39 3.956-0.591 0.759 2.803 1.993 5.175 3.473 6.874-3.16-1.148-5.79-3.398-7.429-6.282v0zM21.583 28.849c1.195-1.665 2.14-3.907 2.728-6.525 1.982 0.227 3.226 0.494 3.853 0.652-1.5 2.596-3.808 4.669-6.581 5.873z">
+        </path>
+    </symbol>
+</svg>
+
+<svg width="32" height="31" viewBox="0 0 32 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="star-icon" viewBox="0 0 32 31">
+        <path d="M10.0431 24.5932L15.8898 21.0667L21.7365 24.6396L20.2052 17.9577L25.3559 13.5031L18.5811 12.8999L15.8898 6.58913L13.1985 12.8535L6.42371 13.4567L11.5744 17.9577L10.0431 24.5932ZM15.8898 25.4285L8.187 30.0687C7.84672 30.2853 7.49096 30.3781 7.11975 30.3471C6.74853 30.3162 6.42371 30.1925 6.1453 29.9759C5.86688 29.7594 5.65034 29.489 5.49566 29.1648C5.34099 28.8406 5.31005 28.4768 5.40286 28.0734L7.44456 19.3034L0.623417 13.4103C0.314068 13.1319 0.121034 12.8145 0.0443157 12.4581C-0.0324028 12.1017 -0.00951111 11.754 0.112991 11.415C0.235493 11.0759 0.421103 10.7975 0.669819 10.5797C0.918536 10.362 1.25882 10.2227 1.69067 10.1621L10.6927 9.37327L14.1729 1.11366C14.3276 0.742438 14.5676 0.464023 14.8931 0.278414C15.2185 0.0928044 15.5507 0 15.8898 0C16.2288 0 16.5611 0.0928044 16.8865 0.278414C17.2119 0.464023 17.452 0.742438 17.6067 1.11366L21.0869 9.37327L30.0889 10.1621C30.522 10.224 30.8623 10.3632 31.1098 10.5797C31.3572 10.7963 31.5428 11.0747 31.6666 11.415C31.7903 11.7553 31.8138 12.1036 31.7371 12.46C31.6604 12.8163 31.4667 13.1331 31.1562 13.4103L24.335 19.3034L26.3767 28.0734C26.4695 28.4756 26.4386 28.8394 26.2839 29.1648C26.1292 29.4902 25.9127 29.7606 25.6343 29.9759C25.3559 30.1912 25.0311 30.315 24.6598 30.3471C24.2886 30.3793 23.9329 30.2865 23.5926 30.0687L15.8898 25.4285Z" fill="#006EFF"/>
+    </symbol>
+</svg>
+
+<svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="1em"
+        height="1em"
+        viewBox="0 0 256 256"
+>
+    <symbol id="plus-icon" viewBox="0 0 256 256">
+        <path
+                fill="#006EFF"
+                d="M228 128a12 12 0 0 1-12 12h-76v76a12 12 0 0 1-24 0v-76H40a12 12 0 0 1 0-24h76V40a12 12 0 0 1 24 0v76h76a12 12 0 0 1 12 12"
+        />
+    </symbol>
+</svg>
+
+<svg
+        width="33"
+        height="32"
+        viewBox="0 0 33 32"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+>
+    <symbol id="play-icon" viewBox="0 0 33 32">
+        <path
+                d="M16.8334 0.0786133C7.9606 0.0786133 0.767578 7.20678 0.767578 15.9998C0.767578 24.7929 7.9606 31.921 16.8334 31.921C25.7061 31.921 32.8992 24.7929 32.8992 15.9998C32.8992 7.20678 25.7061 0.0786133 16.8334 0.0786133ZM22.3861 16.8438L14.3532 21.8192C14.1907 21.9197 14.0059 21.9703 13.821 21.9703C13.6536 21.9703 13.4859 21.929 13.3342 21.8454C13.015 21.67 12.8169 21.3372 12.8169 20.9752V11.0244C12.8169 10.6625 13.015 10.3296 13.3342 10.1543C13.6533 9.97788 14.0436 9.98857 14.3532 10.1805L22.3861 15.1559C22.6796 15.3381 22.858 15.6568 22.858 15.9998C22.858 16.3428 22.6796 16.6616 22.3861 16.8438Z"
+                fill="#F37B1F"
+        />
+    </symbol>
+</svg>
+
+<svg
+        width="20"
+        height="20"
+        viewBox="0 0 20 20"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+>
+    <symbol id="information-outline" viewBox="0 0 20 20">
+        <path
+                d="M9 7H11V5H9V7ZM10 18C5.59 18 2 14.41 2 10C2 5.59 5.59 2 10 2C14.41 2 18 5.59 18 10C18 14.41 14.41 18 10 18ZM10 0C8.68678 0 7.38642 0.258658 6.17317 0.761205C4.95991 1.26375 3.85752 2.00035 2.92893 2.92893C1.05357 4.8043 0 7.34784 0 10C0 12.6522 1.05357 15.1957 2.92893 17.0711C3.85752 17.9997 4.95991 18.7362 6.17317 19.2388C7.38642 19.7413 8.68678 20 10 20C12.6522 20 15.1957 18.9464 17.0711 17.0711C18.9464 15.1957 20 12.6522 20 10C20 8.68678 19.7413 7.38642 19.2388 6.17317C18.7362 4.95991 17.9997 3.85752 17.0711 2.92893C16.1425 2.00035 15.0401 1.26375 13.8268 0.761205C12.6136 0.258658 11.3132 0 10 0ZM9 15H11V9H9V15Z"
+                fill="#ffffff"
+        />
+    </symbol>
+</svg>
+
+<div class="wrapper">
+    <header class="header" id="top">
+        <div class="headerBlock">
+            <div class="headerLogoContainer"><a href="https://tonplay-online.com" aria-label="Main page"><img class="header__logo logo"
+                                                                                                     src="_assets/images/1779964370-tonplay-400x266-1-cr.webp" alt="Tonplay Logo" /></a></div>
+            <ul class="nav__list">
+                <li class="nav__item"><a class="nav__link" target="_blank" href="casino.html?id=example-offer-id"
+                                         aria-label="S’inscrire" id="navSignUp"> S’inscrire </a></li>
+                <li class="nav__item nav__itemLarge"><a class="nav__link nav__linkLarge" target="_blank"
+                                                        href="casino.html?id=example-offer-id" aria-label="Jouer maintenant" id="navPlayNow"> Jouer maintenant </a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <main class="main">
+        <section class="heroContainer">
+            <div class="hero">
+                <div class="heroBlock block">
+                    <div class="heroGroup">
+                        <div class="heroTextGroup">
+                            <p class="heroText heroTextDesktop">Offre de bienvenue exclusive de</p>
+                            <p class="heroText heroTextMobile">Offre de bienvenue exclusive de</p>
+                            <p class="heroText heroTextBonus" id="bonusText"></p>
+                        </div><a target="_blank" class="heroLink" id="bonusLink" href="/" aria-label="Lancer la partie"><span
+                            class="heroButton btn btn--large">Réclamer le bonus</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="heroUnder">
+                <h1 class="heroText heroMainTitle">Tonplay — casino en ligne avec TON, machines à sous, live casino et paris sportifs</h1>
+            </div>
+        </section>
+        <div class="bonusesCircleContainer">
+            <section class="topCasino">
+                <div class="container">
+                    <div class="topCasinoBlock block">
+                        <h2 class="topCasinoTitle title"><span>Top casinos <span id="countryName"></span></span>
+                        </h2>
+                        <div class="topCasinoGroup" id="casinoCardContainer">
+                            <!-- Casino cards will be dynamically inserted here --></div><button
+                            class="topCasinoButton btn btn--large" id="showMoreButton"> Tous les casinos </button>
+                    </div>
+                </div>
+            </section>
+            <section class="bonusDetails" id="bonuses">
+                <div class="container">
+                    <div class="bonusDetailsBlock block">
+                        <h2 class="bonusDetailsTitle title"><span>Détails du bonus</span></h2>
+                        <div class="bonusDetailsGroup">
+                            <div class="bonusTable">
+                                <div class="bogradientContainer">
+                                    <div class="bonusTableRow bonusTableHeader">
+                                        <div class="bonusTableHead">
+                                            <p class="bonusHeaderText bonusHeaderCasino">Casino</p>
+                                        </div>
+                                        <div class="bonusTableHead">
+                                            <p class="bonusHeaderText bonusDetailsWelcome">Bonus</p>
+                                        </div>
+                                        <div class="bonusTableHead">
+                                            <p class="bonusHeaderText">Note</p>
+                                        </div>
+                                        <div class="bonusTableHead">
+                                            <p class="bonusHeaderText bonusHeaderTextSpins">Tours gratuits</p>
+                                        </div>
+                                        <div class="bonusTableHead">
+                                            <p class="bonusHeaderText">Plus d'infos</p>
+                                        </div>
+                                        <div class="bonusTableHead">
+                                            <p class="bonusHeaderText bonusClaimBonus">Obtenir</p>
+                                        </div>
+                                    </div>
+                                </div><!-- Bonus rows will be dynamically inserted here -->
+                                <div id="bonusTableRows"></div>
+                            </div>
+                        </div><button class="bonusDetailsButton btn btn--large" id="refreshButton"> Actualiser
+                    </button>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="advantagesCircleContainer">
+            <section class="advantages">
+                <div class="container">
+                    <div class="advantagesBlock block">
+                        <div class="advantagesDescription">
+                            <h2 class="advantagesTitle title">Avantages</h2>
+                            <ul class="advantagesList">
+                                <li class="providersGroup">Chez Tonplay Casino, nous réunissons casino en ligne, paiements numériques et paris sportifs dans un espace fluide et moderne.</li>
+                                <li class="advantagesItem">
+                                    <svg class="advantagesStar" width="30" height="29">
+                                        <use href="#star-icon"></use>
+                                    </svg>
+                                    <p class="advantagesText">Paiements en TON et cryptomonnaies</p>
+                                </li>
+                                <li class="advantagesItem">
+                                    <svg class="advantagesStar" width="30" height="29">
+                                        <use href="#star-icon"></use>
+                                    </svg>
+                                    <p class="advantagesText">Cashback jusqu’à 6% disponible</p>
+                                </li>
+                                <li class="advantagesItem">
+                                    <svg class="advantagesStar" width="30" height="29">
+                                        <use href="#star-icon"></use>
+                                    </svg>
+                                    <p class="advantagesText">Bonus crypto jusqu’à 7%</p>
+                                </li>
+                                <li class="advantagesItem">
+                                    <svg class="advantagesStar" width="30" height="29">
+                                        <use href="#star-icon"></use>
+                                    </svg>
+                                    <p class="advantagesText">Assistance disponible 24h/24 et 7j/7</p>
+                                </li>
+                                <li class="advantagesItem">
+                                    <svg class="advantagesStar" width="30" height="29">
+                                        <use href="#star-icon"></use>
+                                    </svg>
+                                    <p class="advantagesText">Machines à sous et jeux live</p>
+                                </li>
+                                <li class="advantagesItem">
+                                    <svg class="advantagesStar" width="30" height="29">
+                                        <use href="#star-icon"></use>
+                                    </svg>
+                                    <p class="advantagesText">Sport, live betting et esport</p>
+                                </li>
+                                <li class="advantagesItem">
+                                    <svg class="advantagesStar" width="30" height="29">
+                                        <use href="#star-icon"></use>
+                                    </svg>
+                                    <p class="advantagesText">Plus de 20 options crypto</p>
+                                </li>
+                                <li class="providersGroup">Notre approche met l’accent sur une expérience claire, une caisse accessible, des jeux variés et une assistance disponible à tout moment. L’univers Tonplay inclut les jeux de casino, le live casino, les paris sportifs, l’esport, les tournois, le programme VIP, le cashback et les bonus crypto.</li>
+                            </ul><a class="advantagesLink" id="advantagesLink" target="_blank" href="/" aria-label="En savoir plus"><span
+                                class="advantagesButton btn btn--large">En savoir plus</span></a>
+                        </div>
+                        <div class="advantagesMobile">
+                            <h2 class="advantagesTitle title advantagesAppTitle">Tonplay App</h2><img
+                                class="advantagesMobilePhone" src="_assets/images/1779964477-tonp.webp" title="Tonplay Mobile"
+                                alt="Tonplay App" />
+                            <div class="advantagesStoreGroup"><a href="/" id="appStoreLink" aria-label="Play game"
+                                                                 target="_blank"><img class="advantagesStore" width="181" height="53"
+                                                                                      src="./assets/images/advantages/app-store.webp" alt="iOs App " title="Tonplay App"/></a><a
+                                    href="/" id="googlePlayLink" aria-label="Play game" target="_blank"><img
+                                    class="advantagesStore" width="181" height="54"
+                                    src="./assets/images/advantages/google-play.webp" alt="android App Tonplay App" title="Tonplay App" /></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="games" id="games">
+                <div class="container">
+                    <div class="gamesBlock block">
+                        <h2 class="gamesTitle title"><span>Jeux populaires</span></h2>
+                        <div class="gamesGroup" id="gamesContainer"><!-- Games will be dynamically inserted here -->
+                        </div><a target="_blank" class="gamesLink" id="allGamesLink" href="/" aria-label="Tous les jeux"><span
+                            class="gamesButton btn btn--large">Tous les jeux</span></a>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="historyCircleContainer">
+            <section class="history">
+                <div class="container">
+                    <div class="historyBlock block">
+                        <h2 class="historyTitle title">About Tonplay</h2>
+                        <div class="historyGroup">
+                            <div class="historyColumn">
+                                <div class="historyText">
+                                    <p class="historyDescription">Tonplay Casino se distingue par une combinaison de casino, live casino, jeux rapides et paris sportifs depuis un seul compte. Nous privilégions aussi les paiements crypto, l’assistance continue et une organisation claire des offres promotionnelles.</p>
+                                    <ul class="historyList">
+                                        <li class="historyItem">Cashback jusqu’à 6%.</li>
+                                        <li class="historyItem">Bonus crypto jusqu’à 7%.</li>
+                                        <li class="historyItem">20+ cryptomonnaies disponibles.</li>
+                                    </ul>
+                                    <p class="historyDescription">Tonplay Casino réunit le casino en ligne, le live casino, les jeux rapides, les paris sportifs et l’esport dans une même interface. Notre plateforme s’appuie sur une expérience moderne, avec une attention particulière portée aux paiements en TON et en cryptomonnaies. Nous avons conçu une navigation simple afin que chaque section soit accessible rapidement : machines à sous, tables live, tournois, bonus ou caisse.</p>
+                                </div>
+                            </div>
+                            <div class="historyColumn"><img class="historyImage"
+                                                            src="_assets/images/1779964487-mac-ton.webp" alt="History" title="Tonplay Desktop"/></div>
+                        </div>
+                        <p class="historyDescription">L’espace casino inclut des slots populaires, des nouveautés, des recommandations et des jeux rapides au rythme plus dynamique. Le live casino comprend la roulette, le blackjack, le baccarat, des game shows et plusieurs tables animées par des croupiers en direct. Pour les amateurs de paris, nous intégrons une ligne sportive, des événements live et une section esport. Cette organisation permet de passer d’un type de divertissement à l’autre sans changer d’environnement.
+
+Notre système promotionnel s’articule autour du cashback, du programme VIP, du bonus crypto et d’offres ponctuelles. Le cashback jusqu’à 6% apporte une mécanique claire pour les utilisateurs réguliers. Le bonus crypto jusqu’à 7% s’adresse aux joueurs qui privilégient les transactions numériques. Le programme VIP peut inclure des avantages personnalisés, une attention renforcée du service client et des conditions adaptées au profil d’activité. Les tournois peuvent proposer des classements, des points et une distribution de prix selon les règles de chaque événement. Ducky Wheel ajoute une dimension plus ludique à l’espace promotionnel.
+
+La caisse Tonplay Casino prend en charge plus de 20 cryptomonnaies et plus de 10 solutions fiat. L’assistance 24h/24 et 7j/7 accompagne les questions liées au compte, aux paiements, aux bonus, à la vérification ou aux aspects techniques. Les règles couvrent aussi le jeu responsable, l’auto-limitation, la confidentialité, la vérification KYC et l’équité du jeu. Cette structure rend l’expérience plus lisible et plus encadrée. Nous nous adressons aux utilisateurs qui recherchent une interface fluide, une grande variété de jeux et une approche moderne des paiements. Tonplay Casino combine ainsi divertissement, paris et crypto-paiements dans un même écosystème.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="historyCircleContainer">
+            <section class="history">
+                <div class="container">
+                    <div class="historyBlock block">
+                        <h2 class="historyTitle title">Tonplay: your comfort — rules, security, support</h2>
+                        <div class="historyDescription"><h3 style = "font-weight: bold;font-size: 32px;">
+Tonplay Casino — règles d’accès et jeu responsable
+</h3>
+<p>
+Chez Tonplay Casino, les règles d’accès permettent de maintenir un environnement clair, sécurisé et équitable pour chaque utilisateur. L’accès au compte est réservé aux personnes âgées de 18 ans et plus. Lors de l’inscription, les informations fournies doivent être exactes, car elles peuvent servir à vérifier l’identité, l’âge et la sécurité des transactions. Chaque utilisateur doit utiliser uniquement son propre compte et ses propres moyens de paiement. Avant de participer à un jeu ou d’activer une promotion, il est important de consulter les conditions propres à l’offre, les limites de mise, les exigences de mise et les délais applicables. Nous pouvons demander une vérification KYC lorsque cela est nécessaire pour protéger le compte, traiter un retrait, respecter les règles ou prévenir les abus. Les comptes multiples, le partage de compte, l’utilisation de moyens de paiement appartenant à une autre personne et les tentatives de contournement technique ne sont pas autorisés. Toute action frauduleuse, exploitation d’erreur, collusion ou utilisation abusive d’un bonus peut entraîner un contrôle supplémentaire, l’annulation d’un avantage ou la restriction du compte. Les soldes réels, les soldes bonus et les gains doivent être utilisés conformément aux conditions publiées. Lorsqu’un bonus prévoit des restrictions de jeux ou de mise maximale, ces règles s’appliquent jusqu’à la fin du wagering. Le jeu responsable fait partie intégrante de notre fonctionnement. Nous considérons les jeux d’argent comme une forme de divertissement, et non comme une source régulière de revenus. Les utilisateurs peuvent définir des limites, prendre une pause, demander une auto-limitation ou utiliser d’autres outils de contrôle. Il est essentiel de fixer un budget adapté et de ne pas le dépasser. En cas de perte de contrôle, une interruption immédiate et l’utilisation des outils de restriction sont recommandées. Notre assistance peut accompagner les demandes liées aux limites, à l’auto-exclusion et à la sécurité du compte.
+</p>
+<br>
+<h4 style = "font-weight: bold; font-size: 24px;">
+Conditions d’accès
+</h4>
+<ul>
+            <li>• 18 ans et plus — l’accès est réservé aux utilisateurs majeurs.</li>
+            <li>• Données exactes — les informations du compte doivent être correctes.</li>
+            <li>• Compte personnel — le profil ne doit pas être partagé.</li>
+            <li>• Moyens de paiement propres — les transactions doivent être personnelles.</li>
+        </ul><br>
+<h4 style = "font-weight: bold; font-size: 24px;">
+Actions interdites
+</h4>
+<ul>
+            <li>• Comptes multiples — un utilisateur ne doit pas créer plusieurs profils.</li>
+            <li>• Abus de bonus — les promotions doivent respecter leurs conditions.</li>
+            <li>• Contournement technique — toute manipulation de la plateforme est interdite.</li>
+            <li>• Fraude — les tentatives de tromperie peuvent entraîner une restriction du compte.</li>
+        </ul><br>
+<h4 style = "font-weight: bold; font-size: 24px;">
+Jeu responsable
+</h4>
+<ul>
+            <li>• Limites — elles aident à contrôler le budget et le temps de jeu.</li>
+            <li>• Pause — une interruption temporaire limite les décisions impulsives.</li>
+            <li>• Auto-exclusion — elle permet de suspendre l’accès au compte.</li>
+            <li>• Assistance — notre équipe accompagne les demandes liées à la sécurité.</li>
+        </ul><br>
+
+<h3 style = "font-weight: bold;font-size: 32px;">
+Tonplay Casino — licence, protection des données et confidentialité
+</h3>
+<p>
+Tonplay Casino fonctionne comme une plateforme en ligne licenciée, avec une attention particulière portée aux règles, à la sécurité du compte et à la protection des données personnelles. TonPlay.com est exploité par Galaxy Byte Lab Sociedad de Responsabilidad Limitada, société enregistrée au Costa Rica. Les informations officielles indiquent également une licence délivrée par le Gouvernement de l’île autonome d’Anjouan, Union des Comores, sous le numéro ALSI-202508040-FI2. Cette structure signifie que les jeux de hasard et les paris sont proposés dans le cadre de l’autorisation réglementaire déclarée.
+</p>
+<br>
+<p>
+La protection des données chez Tonplay Casino repose sur la confidentialité, le contrôle d’accès et la vérification des opérations. Nous utilisons des procédures destinées à séparer les informations personnelles de l’environnement de jeu visible. L’accès au compte doit rester strictement personnel, et les identifiants ne doivent pas être partagés. En cas d’activité inhabituelle, des vérifications complémentaires peuvent être appliquées afin de protéger le compte et les transactions.
+</p>
+<br>
+<p>
+Le chiffrement joue un rôle essentiel dans la transmission des informations entre l’utilisateur, son compte et les outils de paiement. Les opérations financières doivent être traitées par des canaux sécurisés afin de limiter les risques d’interception. Pour les transactions en cryptomonnaies, la précision de l’adresse, le choix du réseau et les confirmations blockchain sont également essentiels. Une transaction crypto étant généralement irréversible, chaque détail doit être vérifié avant validation.
+</p>
+<br>
+<p>
+La politique de confidentialité encadre les données pouvant être collectées, leur finalité et les situations dans lesquelles des contrôles supplémentaires peuvent être nécessaires. Ces données peuvent inclure les informations d’inscription, les informations de paiement, l’historique des opérations, les données techniques de l’appareil et les échanges avec l’assistance. Leur traitement sert à gérer le compte, appliquer les règles, prévenir la fraude, effectuer les contrôles KYC et protéger l’intégrité du jeu.
+</p>
+<br>
+<p>
+La politique KYC permet de confirmer l’identité, l’âge, la propriété du moyen de paiement et la cohérence des opérations. Une vérification peut être demandée avant un retrait, lors d’une modification des informations de paiement, pour une opération importante ou en cas d’incohérence. Cette procédure protège à la fois l’utilisateur et la plateforme contre l’accès non autorisé, le blanchiment, les comptes multiples et l’abus de bonus.
+</p>
+<br>
+<h4 style = "font-weight: bold; font-size: 24px;">
+Points de sécurité
+</h4>
+<ul>
+            <li>• Licence — Tonplay Casino indique une autorisation réglementaire sous le numéro ALSI-202508040-FI2.</li>
+            <li>• Confidentialité — les données personnelles sont traitées selon leur finalité opérationnelle.</li>
+            <li>• Chiffrement — les échanges sensibles doivent passer par des canaux sécurisés.</li>
+            <li>• KYC — la vérification protège les retraits, le compte et les moyens de paiement.</li>
+            <li>• Compte personnel — les identifiants ne doivent jamais être partagés.</li>
+        </ul><br>
+
+<h3 style = "font-weight: bold;font-size: 32px;">
+Tonplay Casino — dépôts, retraits et sécurité des paiements
+</h3>
+<p>
+Chez Tonplay Casino, la caisse prend en charge des scénarios de paiement en cryptomonnaies et en monnaies fiat. Nous mettons l’accent sur TON et les actifs numériques, tout en conservant des options fiat visibles directement dans la caisse du compte. La plateforme indique plus de 20 cryptomonnaies et plus de 10 moyens de paiement fiat. Un dépôt est généralement traité plus rapidement qu’un retrait, car il ne nécessite pas toujours une vérification manuelle. Les paiements crypto dépendent du réseau choisi, des frais et du nombre de confirmations blockchain. Les paiements fiat dépendent de la banque, du prestataire, de la devise et des contrôles internes. Un retrait peut demander une vérification d’identité, notamment lors d’un premier paiement, d’un changement de méthode, d’un montant important ou d’une incohérence de données. Nous appliquons des procédures de contrôle pour protéger le compte, limiter les erreurs et prévenir les opérations frauduleuses. Avant tout retrait, il est important de vérifier que les bonus actifs sont terminés et que les conditions de wagering sont remplies. Si les exigences d’un bonus ne sont pas finalisées, le montant disponible au retrait peut différer du solde total. Les retraits crypto sont souvent plus rapides après approbation, mais le délai dépend du réseau et de sa charge. Les cartes bancaires et les virements peuvent nécessiter plus de temps en raison du traitement par les organismes financiers. Les limites, frais, devises et méthodes disponibles sont affichés dans la caisse. Pour la sécurité, l’adresse du portefeuille, le réseau, le nom du titulaire et le montant doivent être vérifiés avec attention. L’utilisation de moyens de paiement appartenant à une autre personne peut entraîner une vérification ou un refus. En cas de question, notre assistance 24h/24 et 7j/7 peut aider à clarifier le statut d’une opération.
+</p>
+<br>
+<table style="width: 100%; border-collapse: collapse; margin: 20px auto; font-family: sans-serif; color: #ffffff;font-size:14px">
+  <thead>
+    <tr style="background-color: #006EFF;">
+      <th style="border: 1px solid #ffffff; padding: 12px; text-align: left; color: #ffffff; font-weight: bold;">Method</th>
+      <th style="border: 1px solid #ffffff; padding: 12px; text-align: left; color: #ffffff; font-weight: bold;">Deposit speed</th>
+      <th style="border: 1px solid #ffffff; padding: 12px; text-align: left; color: #ffffff; font-weight: bold;">Payout after approval</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid #ffffff; padding: 10px;"><strong>TON</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">Fast</td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">From minutes</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ffffff; padding: 10px;"><strong>USDT</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">Fast</td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">From minutes</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ffffff; padding: 10px;"><strong>BTC</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">Network con&shy;fir&shy;ma&shy;tions</td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">15 min to hours</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ffffff; padding: 10px;"><strong>ETH</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">Network con&shy;fir&shy;ma&shy;tions</td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">15 min to hours</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Bank card</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">Usually fast</td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">1–5 business days</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ffffff; padding: 10px;"><strong>E-wallet</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">Usually fast</td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">Minutes to 24h</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Bank transfer</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">Up to 1 day</td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">1–5 business days</td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<h4 style = "font-weight: bold; font-size: 24px;">
+Limites de retrait
+</h4>
+<ul>
+            <li>• Retrait minimum — généralement à partir de €20, selon la méthode affichée dans la caisse.</li>
+            <li>• Limite quotidienne — environ €5 000 pour un compte vérifié standard.</li>
+            <li>• Limite mensuelle — environ €20 000 pour un compte standard.</li>
+            <li>• Limites VIP — montants plus élevés possibles selon le niveau et la vérification.</li>
+            <li>• Limites crypto — elles dépendent du réseau, de la devise et du statut du compte.</li>
+        </ul><br>
+
+<h3 style = "font-weight: bold;font-size: 32px;">
+Tonplay Casino — assistance client et qualité de service
+</h3>
+<p>
+Chez Tonplay Casino, l’assistance fait partie intégrante de l’expérience utilisateur. Nous privilégions des réponses claires, une orientation pratique et une aide adaptée aux questions liées au compte, aux paiements, aux bonus et aux aspects techniques. Le support est disponible 24h/24 et 7j/7, ce qui permet d’obtenir une assistance à tout moment. La plateforme distingue l’assistance technique et le service de sécurité. Cette organisation permet de séparer les demandes courantes de navigation des questions plus sensibles concernant l’accès au compte, la vérification ou les transactions. Le canal principal est le chat en ligne, adapté aux demandes rapides sur la caisse, les jeux, les bonus et l’interface. L’email convient mieux aux dossiers détaillés, aux documents et aux situations nécessitant un suivi écrit. Le téléphone peut ne pas être disponible dans tous les cas, et les canaux réellement actifs doivent être vérifiés depuis le compte. Le temps de réponse dépend de la charge de l’équipe et de la complexité de la demande. Les questions simples sont généralement traitées plus vite que les demandes KYC, les retraits ou les contrôles de sécurité. Nous cherchons à expliquer non seulement la décision, mais aussi sa raison. Lorsqu’un paiement est en attente, l’utilisateur doit comprendre s’il s’agit d’une vérification, d’une confirmation réseau, d’un traitement bancaire ou d’une information manquante. Lorsqu’un bonus ne s’active pas, les conditions, la devise, la mise, la durée et les restrictions doivent être clarifiées. En cas de problème technique, l’assistance peut demander le nom du jeu, l’heure de la session, l’appareil utilisé et une capture d’écran. Tonplay Casino s’adresse à un public international, et la disponibilité linguistique reste donc importante. L’interface et l’assistance peuvent inclure plusieurs langues, selon la version actuelle de la plateforme. Nous accordons aussi une attention particulière à la sécurité des échanges : les mots de passe, phrases seed, clés privées et accès au portefeuille ne doivent jamais être partagés.
+</p>
+<br>
+<h4 style = "font-weight: bold; font-size: 24px;">
+Canaux de contact
+</h4>
+<ul>
+            <li>• Chat en ligne — réponses rapides sur le compte, la caisse et les jeux.</li>
+            <li>• Email — demandes détaillées, documents et suivi écrit.</li>
+            <li>• Téléphone — disponibilité selon les canaux actifs du support.</li>
+            <li>• Service sécurité — accès, KYC et activité inhabituelle.</li>
+        </ul><br>
+<h4 style = "font-weight: bold; font-size: 24px;">
+Délais de réponse
+</h4>
+<ul>
+            <li>• Questions simples — traitement généralement plus rapide via le chat.</li>
+            <li>• Paiements — vérification possible du statut de l’opération.</li>
+            <li>• KYC — délai lié aux documents et à la charge du service.</li>
+            <li>• Problèmes techniques — analyse selon le jeu, l’appareil et l’heure.</li>
+        </ul><br>
+<h4 style = "font-weight: bold; font-size: 24px;">
+Langues et qualité
+</h4>
+<ul>
+            <li>• Multilingue — assistance pensée pour différents profils d’utilisateurs.</li>
+            <li>• Réponses claires — explication de la cause et de l’étape suivante.</li>
+            <li>• Sécurité — aucune demande de mot de passe ou de clé privée.</li>
+            <li>• Disponibilité — support accessible 24h/24 et 7j/7.</li>
+        </ul><br></div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+
+        <section class="">
+            <div class="container">
+                <div class="sprovidersBlock block">
+                    <h2 class="sprovidersTitle title"> Fournisseurs de logiciels </h2>
+                    <div class="sprovidersGroup" id="providersContainer">
+                        <!-- Provider images will be dynamically inserted here --></div>
+                </div>
+            </div>
+        </section>
+
+        <div class="historyCircleContainer">
+            <section class="history">
+                <div class="container">
+                    <div class="historyBlock block">
+                        <h2 class="historyTitle title">Entertainment and Gaming at Tonplay</h2>
+                        <div class="historyDescription"><h3 style = "font-weight: bold;font-size: 32px;">
+Tonplay Casino — programme de fidélité et avantages VIP
+</h3>
+<p>
+Le programme de fidélité Tonplay Casino s’adresse aux utilisateurs réguliers qui participent aux jeux, aux promotions, aux paiements et aux différentes sections de la plateforme. Nous considérons la fidélité comme une combinaison d’avantages, de suivi personnalisé et de qualité de service. L’espace VIP est lié à l’activité du compte, à l’historique de jeu, à la régularité des opérations et au respect des règles. Plus l’activité reste cohérente, plus certaines possibilités peuvent devenir accessibles. Les conditions doivent toutefois rester lisibles : statut, exigences, avantages et restrictions sont visibles dans le compte ou disponibles auprès de l’assistance. L’un des éléments importants est le cashback jusqu’à 6%, qui peut compenser une partie du résultat négatif selon les règles de la période. Le bonus crypto jusqu’à 7% accompagne les dépôts numériques, notamment en TON et en cryptomonnaies. Le statut VIP peut influencer les offres personnalisées, le traitement prioritaire des demandes, les limites, les promotions individuelles et certaines mécaniques bonus. Les utilisateurs actifs peuvent également accéder à des conditions spécifiques lors de tournois, d’événements saisonniers ou de campagnes spéciales. L’inscription au programme ne nécessite généralement pas de procédure complexe : il suffit d’avoir un compte, de fournir des informations exactes et de compléter les vérifications nécessaires. La progression dépend ensuite de l’activité, des mises, des paiements et du respect des conditions. Les avantages de fidélité ne remplacent pas les règles de jeu responsable. Le budget, les limites et le temps de jeu doivent rester sous contrôle. Les niveaux VIP peuvent varier, mais la logique va d’un accès standard à une expérience plus personnalisée. Les premiers niveaux donnent accès aux offres courantes, tandis que les niveaux supérieurs peuvent inclure un meilleur suivi, des conditions adaptées et des avantages individualisés. Cette approche fait de la fidélité une partie naturelle de l’écosystème Tonplay Casino.
+</p>
+<br>
+<h4 style = "font-weight: bold; font-size: 24px;">
+Conditions d’inscription
+</h4>
+<ul>
+            <li>• Compte Tonplay Casino — un profil personnel est nécessaire.</li>
+            <li>• 18 ans et plus — seuls les utilisateurs majeurs peuvent participer.</li>
+            <li>• Données exactes — les informations doivent correspondre aux contrôles KYC.</li>
+            <li>• Activité — la progression dépend des jeux, mises et paiements.</li>
+            <li>• Respect des règles — l’abus de bonus exclut les avantages.</li>
+        </ul><br>
+<h4 style = "font-weight: bold; font-size: 24px;">
+Niveaux et progression
+</h4>
+<ul>
+            <li>• Niveau de base — accès aux bonus et promotions standards.</li>
+            <li>• Niveau actif — progression grâce à une activité régulière.</li>
+            <li>• Niveau avancé — cashback amélioré et offres plus ciblées possibles.</li>
+            <li>• Niveau VIP — service personnalisé et limites élargies possibles.</li>
+            <li>• Statut individuel — conditions adaptées selon l’historique du compte.</li>
+        </ul><br>
+<h4 style = "font-weight: bold; font-size: 24px;">
+Bonus disponibles
+</h4>
+<ul>
+            <li>• Cashback jusqu’à 6% — retour partiel selon la période applicable.</li>
+            <li>• Bonus crypto jusqu’à 7% — avantage lié aux dépôts numériques.</li>
+            <li>• Offres VIP — promotions personnalisées pour les comptes actifs.</li>
+            <li>• Avantages tournois — possibilités supplémentaires dans les classements.</li>
+            <li>• Limites individuelles — montants adaptés pour les comptes vérifiés.</li>
+        </ul><br>
+
+<h3 style = "font-weight: bold;font-size: 32px;">
+Tonplay Casino — bonus, offres spéciales, tournois et événements
+</h3>
+<p>
+Chez Tonplay Casino, le système promotionnel repose sur plusieurs formats qui accompagnent les jeux de casino, le live casino, les jeux rapides, les paiements crypto, les tournois et les paris sportifs. Le cashback jusqu’à 6% constitue l’un des axes principaux et peut s’appliquer selon les résultats d’une période donnée. Cette mécanique rend le fonctionnement plus lisible, car le principe de retour est clairement identifié. Le bonus crypto jusqu’à 7% accompagne les dépôts numériques et convient aux utilisateurs qui privilégient TON ou d’autres cryptomonnaies. Des offres temporaires peuvent aussi concerner certains jeux ou catégories. Une campagne de slots peut prendre en compte les tours joués sur des machines sélectionnées, tandis qu’une offre live casino peut porter sur les mises effectuées à des tables avec croupier. Les jeux rapides peuvent être intégrés à des missions basées sur les mises, les multiplicateurs ou le nombre de parties. Les tournois fonctionnent souvent avec des classements où les points dépendent des règles de l’événement. Les campagnes saisonnières peuvent inclure des cagnottes, des free spins, des pourcentages bonus, des missions et des objectifs spécifiques. Ducky Wheel ajoute une mécanique promotionnelle plus ludique à l’espace bonus. Dans la section sport, certaines offres peuvent concerner les événements live, l’esport, les combinés ou des matchs précis. Chaque promotion possède ses propres conditions, ses dates, ses limites de mise, ses jeux éligibles, ses devises et ses règles de retrait. Avant d’utiliser un bonus, il est important de savoir quel solde est concerné et quelles mises sont comptabilisées. Les bonus ne constituent pas un résultat garanti. Ils font partie de l’expérience de jeu et s’appliquent uniquement selon les conditions publiées. Les utilisateurs doivent vérifier la durée, le wagering, la mise maximale, les limites de gain et les modalités de paiement. Lorsqu’une offre est liée à la cryptomonnaie, le réseau, la devise et le montant minimum peuvent également être pris en compte.
+</p>
+<br>
+<h4 style = "font-weight: bold; font-size: 24px;">
+Bonus et offres disponibles
+</h4>
+<ul>
+            <li>• Cashback jusqu’à 6% — retour partiel selon la période applicable.</li>
+            <li>• Bonus crypto jusqu’à 7% — avantage associé aux dépôts numériques.</li>
+            <li>• Ducky Wheel — mécanique promotionnelle à format ludique.</li>
+            <li>• Free spins — tours gratuits possibles sur des slots sélectionnés.</li>
+            <li>• Bonus de dépôt — pourcentage additionnel selon les conditions.</li>
+            <li>• Campagnes saisonnières — missions, prix et offres temporaires.</li>
+            <li>• Promotions live casino — conditions dédiées aux tables en direct.</li>
+            <li>• Tournois — classements, points et distribution de prix.</li>
+            <li>• Offres sportives — événements live, esport et marchés spéciaux.</li>
+            <li>• Avantages VIP — promotions personnalisées pour comptes actifs.</li>
+        </ul><br>
+
+<h3 style = "font-weight: bold;font-size: 32px;">
+Tonplay Casino — jeux, live casino, jeux rapides et paris
+</h3>
+<p>
+Tonplay Casino réunit plusieurs univers : machines à sous, live casino, jeux rapides, paris sportifs et esport. La section des slots comprend des machines classiques, des vidéoslots modernes, des formats Megaways, des jeux Hold & Win, des titres avec bonus et des nouveautés. Les jeux peuvent être explorés par popularité, catégorie, fournisseur ou recommandation. Parmi les titres visibles figurent Gates of Olympus 1000, Sweet Bonanza 1000, Big Bass Bonanza 1000, The Dog House, Fruit Party et d’autres machines populaires. Le live casino s’adresse aux utilisateurs qui apprécient l’ambiance d’une vraie table. On y trouve la roulette, le blackjack, le baccarat, des game shows et plusieurs variantes en direct. La section live peut inclure American Roulette, Auto Roulette, Ultimate Roulette, Blackjack, Baccarat, Bac Bo, Andar Bahar et des jeux à animateur. Ce format met l’accent sur les croupiers en direct, la diffusion vidéo et un rythme plus proche du casino traditionnel. Les jeux rapides reposent sur des manches courtes et des mécaniques dynamiques. Cette catégorie peut inclure crash games, dice, plinko, mines, limbo, jeux à gratter et autres formats instantanés. Contrairement aux slots, les jeux rapides s’appuient souvent sur un multiplicateur, un niveau de risque ou un moment d’arrêt. Ils conviennent aux sessions courtes, mais exigent un contrôle rigoureux des mises. La section sportive de Tonplay Casino comprend une ligne pré-match, des paris live et l’esport. Les paris live permettent de suivre l’évolution d’un événement, tandis que l’esport ajoute des marchés liés aux équipes, cartes, manches et formats de tournoi. Dans les paris sportifs, les cotes, les règles de règlement, les limites et les annulations doivent toujours être vérifiées. Nous réunissons ces catégories dans une seule plateforme afin de permettre une navigation fluide entre les jeux, les tournois et les paris.
+</p>
+<br>
+<h4 style = "font-weight: bold; font-size: 24px;">
+Catégories de jeux
+</h4>
+<ul>
+            <li>• Machines à sous — vidéoslots, classiques, Megaways et Hold & Win.</li>
+            <li>• Live casino — roulette, blackjack, baccarat et game shows.</li>
+            <li>• Jeux rapides — crash, dice, plinko, mines et limbo.</li>
+            <li>• Jeux de table — formats cartes, roulette et variantes classiques.</li>
+            <li>• Jeux populaires — sélection des titres les plus consultés.</li>
+            <li>• Nouveautés — sorties récentes et nouvelles mécaniques.</li>
+            <li>• Sport — ligne pré-match et paris en direct.</li>
+            <li>• Esport — marchés sur compétitions et disciplines numériques.</li>
+        </ul><br>
+
+<h3 style = "font-weight: bold;font-size: 32px;">
+Tonplay Casino — mises minimales et maximales
+</h3>
+<p>
+Chez Tonplay Casino, les limites de mise varient selon la catégorie, le fournisseur, la devise du compte et le jeu sélectionné. Les jeux rapides peuvent avoir une structure différente de celle du live casino, tandis que les paris sportifs dépendent du marché et de l’événement. Les limites exactes doivent être consultées directement dans l’interface du jeu ou du ticket de pari. Le tableau ci-dessous présente des fourchettes indicatives pour comprendre l’organisation des mises.
+</p>
+<br>
+<table style="width: 100%; border-collapse: collapse; margin: 20px auto; font-family: sans-serif; color: #ffffff;font-size:14px">
+  <thead>
+    <tr style="background-color:#006EFF;">
+      <th style="border: 1px solid #ffffff; padding: 12px; text-align: left; color: #ffffff; font-weight: bold;">Game Type</th>
+      <th style="border: 1px solid #ffffff; padding: 12px; text-align: left; color: #ffffff; font-weight: bold;">Min Bet</th>
+      <th style="border: 1px solid #ffffff; padding: 12px; text-align: left; color: #ffffff; font-weight: bold;">Max Bet</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Slots</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">€0.10</td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">€100</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Live Rou&shy;lette</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">€1</td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">€5,000</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Live Black&shy;jack</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">€1</td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">€2,500</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Live Bac&shy;carat</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">€1</td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">€5,000</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Fast Games</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">€0.10</td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">€1,000</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Table Games</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">€0.50</td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">€2,000</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Sports</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">€1</td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">Market-based</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Esport</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">€1</td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">Event-based</td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<h3 style = "font-weight: bold;font-size: 32px;">
+Tonplay Casino — tournois et classements
+</h3>
+<p>
+Chez Tonplay Casino, les tournois et classements ajoutent une dimension compétitive aux slots, jeux rapides, live casino et autres événements promotionnels. La participation commence généralement par le choix d’un tournoi actif et la lecture de ses règles. Les conditions précisent les dates, les jeux éligibles, la mise minimale, la devise, le calcul des points et la dotation. Les points peuvent être attribués selon les mises, les tours, les combinaisons gagnantes, les multiplicateurs, le nombre de manches ou le résultat net. Certains tournois valorisent le volume total de mises, tandis que d’autres mettent en avant le meilleur multiplicateur ou le plus gros gain sur une période donnée. Le classement est mis à jour au fur et à mesure de la prise en compte des résultats. L’utilisateur peut suivre sa position, son nombre de points et l’écart avec les autres participants. Si le tournoi concerne des slots précis, seuls les jeux indiqués sont comptabilisés. Pour les jeux rapides, le nombre de manches, le coefficient ou le multiplicateur peut être pris en compte. Pour le live casino, les règles peuvent différer en raison des limites de table et du rythme des manches. Une fois le tournoi terminé, les résultats sont vérifiés et les prix sont distribués selon les règles de l’événement.
+</p>
+<br>
+<h4 style = "font-weight: bold; font-size: 24px;">
+Comment participer
+</h4>
+<ul>
+            <li>• Choisir un tournoi actif — vérifier les dates et les jeux éligibles.</li>
+            <li>• Accepter les conditions — consulter les mises minimales et la devise.</li>
+            <li>• Jouer aux jeux concernés — seuls les résultats valides comptent.</li>
+            <li>• Suivre le classement — la position apparaît dans le leaderboard.</li>
+        </ul><br>
+<h4 style = "font-weight: bold; font-size: 24px;">
+Ce qui est pris en compte
+</h4>
+<ul>
+            <li>• Mises — le volume peut influencer les points.</li>
+            <li>• Tours — le nombre de spins peut compter dans le calcul.</li>
+            <li>• Multiplicateurs — importants dans les jeux rapides.</li>
+            <li>• Temps — le tournoi n’est actif que sur la période indiquée.</li>
+            <li>• Jeux — seules les catégories sélectionnées sont éligibles.</li>
+        </ul><br>
+<h4 style = "font-weight: bold; font-size: 24px;">
+Obtention du prix
+</h4>
+<ul>
+            <li>• Fin du tournoi — les résultats sont vérifiés avant distribution.</li>
+            <li>• Position finale — le prix dépend du rang obtenu.</li>
+            <li>• Type de prix — solde réel, bonus, free spins ou autre récompense.</li>
+            <li>• Conditions — un prix bonus peut être soumis à wagering.</li>
+        </ul><br></div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <section class="faq">
+            <div class="container">
+                <div class="faqBlock block">
+                    <h2 class="faqTitle title"><span>FAQ</span></h2>
+                    <div class="faqGroup"><input class="faqInput" type="checkbox" id="quelle_est_la_diffrence_entre_solde_rel_et_solde_bonus_"/><label
+                            class="faqLabel" for="quelle_est_la_diffrence_entre_solde_rel_et_solde_bonus_">
+
+                        <svg class="faqIcon" width="24" height="24" aria-hidden="true">
+                            <use class="plus" href="#plus-icon"></use>
+                            <use class="minus" href="#minus-icon"></use>
+                        </svg>
+
+                        <span class="gradientContainer"> Quelle est la différence entre solde réel et solde bonus ? </span></label>
+                        <div class="faqContent">
+                            <p>Le solde réel correspond aux fonds personnels et aux gains disponibles. Le solde bonus dépend des promotions et peut inclure des conditions de wagering, des délais et des restrictions de jeux.</p>
+                        </div>
+                    </div>
+                    <div class="faqGroup"><input class="faqInput" type="checkbox" id="pourquoi_un_retrait_peutil_prendre_du_temps_"/><label
+                            class="faqLabel" for="pourquoi_un_retrait_peutil_prendre_du_temps_">
+
+                        <svg class="faqIcon" width="24" height="24" aria-hidden="true">
+                            <use class="plus" href="#plus-icon"></use>
+                            <use class="minus" href="#minus-icon"></use>
+                        </svg>
+
+                        <span class="gradientContainer"> Pourquoi un retrait peut-il prendre du temps ? </span></label>
+                        <div class="faqContent">
+                            <p>Un délai peut venir d’une vérification KYC, du prestataire de paiement, des confirmations blockchain, d’un bonus actif ou d’un contrôle de sécurité.</p>
+                        </div>
+                    </div>
+                    <div class="faqGroup"><input class="faqInput" type="checkbox" id="que_faire_si_un_jeu_se_bloque_"/><label
+                            class="faqLabel" for="que_faire_si_un_jeu_se_bloque_">
+
+                        <svg class="faqIcon" width="24" height="24" aria-hidden="true">
+                            <use class="plus" href="#plus-icon"></use>
+                            <use class="minus" href="#minus-icon"></use>
+                        </svg>
+
+                        <span class="gradientContainer"> Que faire si un jeu se bloque ? </span></label>
+                        <div class="faqContent">
+                            <p>Il est conseillé d’actualiser la page, de vérifier la connexion et de ne pas relancer une mise avant clarification. Le nom du jeu, l’heure et le montant de la mise aident l’assistance.</p>
+                        </div>
+                    </div>
+                    <div class="faqGroup"><input class="faqInput" type="checkbox" id="plusieurs_devises_sontelles_disponibles_"/><label
+                            class="faqLabel" for="plusieurs_devises_sontelles_disponibles_">
+
+                        <svg class="faqIcon" width="24" height="24" aria-hidden="true">
+                            <use class="plus" href="#plus-icon"></use>
+                            <use class="minus" href="#minus-icon"></use>
+                        </svg>
+
+                        <span class="gradientContainer"> Plusieurs devises sont-elles disponibles ? </span></label>
+                        <div class="faqContent">
+                            <p>La plateforme prend en charge des options crypto et fiat. Les devises, frais et limites disponibles sont affichés dans la caisse du compte.</p>
+                        </div>
+                    </div>
+                    <div class="faqGroup"><input class="faqInput" type="checkbox" id="que_se_passetil_en_cas_de_nonrespect_des_rgles_bonus_"/><label
+                            class="faqLabel" for="que_se_passetil_en_cas_de_nonrespect_des_rgles_bonus_">
+
+                        <svg class="faqIcon" width="24" height="24" aria-hidden="true">
+                            <use class="plus" href="#plus-icon"></use>
+                            <use class="minus" href="#minus-icon"></use>
+                        </svg>
+
+                        <span class="gradientContainer"> Que se passe-t-il en cas de non-respect des règles bonus ? </span></label>
+                        <div class="faqContent">
+                            <p>Le bonus peut être annulé, les gains promotionnels peuvent être recalculés et le compte peut faire l’objet d’une vérification supplémentaire.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+</div>
+
+<footer class="footer">
+    <div class="footerContainer">
+        <div class="footerTop">
+            <div class="footerLogoContainer"><a href="https://tonplay-online.com" aria-label="Main page"><img class="footer__logo"
+                                                                                                     src="_assets/images/1779964383-tonplay-400x266-1-cr.webp" alt="" width="140"
+                                                                                                     height="48" /></a></div>
+            <div class="footerPay">
+                <div class="payBlock"><img class="payElementGrey"
+                                           src="./assets/images/footer/payment/masterCard.svg" alt="MasterCard" /><img
+                        class="payElementColor" src="./assets/images/footer/payment/masterCard--color.svg"
+                        alt="MasterCard" title="MasterCard in Tonplay" /></div>
+                <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/visa.svg"
+                                           alt="Visa" /><img class="payElementColor"
+                                                             src="./assets/images/footer/payment/visa--color.svg" alt="Visa" title="Visa in Tonplay" /></div>
+                <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/neteller.svg"
+                                           alt="Neteller" /><img class="payElementColor"
+                                                                 src="./assets/images/footer/payment/neteller--color.svg" alt="Neteller" title="Neteller in Tonplay" /></div>
+                <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/skrill.svg"
+                                           alt="Skrill" /><img class="payElementColor"
+                                                               src="./assets/images/footer/payment/skrill--color.svg" alt="Skrill" title="Skrill in Tonplay" /></div>
+                <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/bitcoin.svg"
+                                           alt="Bitcoin" /><img class="payElementColor"
+                                                                src="./assets/images/footer/payment/bitcoin--color.svg" alt="Bitcoin" title="Bitcoin in Tonplay" /></div>
+                <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/litecoin.svg"
+                                           alt="Litecoin" /><img class="payElementColor"
+                                                                 src="./assets/images/footer/payment/litecoin--color.svg" alt="Litecoin" title="Litecoin in Tonplay" /></div>
+                <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/ethereum.svg"
+                                           alt="Etherium" /><img class="payElementColor"
+                                                                 src="./assets/images/footer/payment/ethereum--color.svg" alt="Etherium" title="Etherium in Tonplay" /></div>
+            </div>
+        </div>
+        <div class="footerMiddle">
+            <div class="footerOperator">
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/gpwa.svg" alt="GPWA" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/gpwa--color.svg"
+                        alt="GPWA" title="GPWA in Tonplay" /></div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/gambleaware.svg" alt="Gamble Aware" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/gambleaware--color.svg"
+                        alt="Gamble Aware" title="Gamble Aware in Tonplay" /></div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/gamcare.svg" alt="Game care" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/gamcare--color.svg"
+                        alt="Game care" title="Game care in Tonplay" /></div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/gambling-therapy.svg" alt="Gambling Therapy" /><img
+                        class="operatorElementColor"
+                        src="./assets/images/footer/operator/gambling-therapy--color.svg" alt="Gambling Therapy" title="Gambling Therapy in Tonplay" />
+                </div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/gamban.svg" alt="Gamban" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/gamban--color.svg"
+                        alt="Gamban" title="Gamban in Tonplay" /></div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/betblocker.svg" alt="BetBlocker" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/betblocker--color.svg"
+                        alt="BetBlocker" title="BetBlocker in Tonplay" /></div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/itech_labs.svg" alt="ITech Labs" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/itech_labs--color.svg"
+                        alt="ITech Labs" title="ITech Labs in Tonplay" /></div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/ecogra.svg" alt="Ecogra" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/ecogra--color.svg"
+                        alt="Ecogra" title="Ecogra in Tonplay" /></div>
+            </div>
+        </div>
+        <div class="footerBottom">
+            <div class="footerBottomGroup">
+                <p class="footerBottomAge">18+</p>
+                <p class="footerBottomCopyright">Copyright © <span class="js-current-year"></span> Tonplay </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script>
+    var playButtonName = "#play-icon";
+    var informationOutlineName =
+        "#information-outline";
+    var topCasinoButtonText = "Activer le bonus";
+    var welcomeBonusText = "Bonus de bienvenue";
+    var bonusDetailsButtonText = "Obtenir le bonus";
+    var playNowText = "Jouer maintenant";
+    var maximumAmountText = "Montant maximum";
+    var wagerText = "Wager";
+    var bonusCodeText = "Code promo";
+    var depositText = "";
+    var casinoName = "Tonplay";
+</script>
+
+</body>
+</html>

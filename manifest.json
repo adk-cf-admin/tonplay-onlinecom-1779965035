@@ -1,0 +1,19 @@
+{
+  "name": "Tonplay",
+  "short_name": "Tonplay",
+  "theme_color": "",
+  "background_color": "#0C0F12",
+  "display": "standalone",
+  "orientation": "portrait",
+  "scope": "/",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "_assets/images/1779964359-favicon-2026-05-28t131519758.ico",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ],
+  "splash_pages": null
+}
